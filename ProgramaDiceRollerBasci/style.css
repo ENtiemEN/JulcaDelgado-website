@@ -1,0 +1,33 @@
+#container1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+button{
+    font-size: 1.5rem;
+    padding: 15px 20px;
+    border-radius: 30px;
+    border: none;
+    background-color: rgb(27, 110, 27);
+    color: white;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(98, 10, 10);
+}
+button:active{
+    background-color: rgb(180, 9, 9);
+}
+input{
+    font-size: 1.7rem;
+    width: 150px;
+    text-align: center;
+    font-weight: bold;
+}
+#result{
+    margin: 25px;
+}
+#images img{
+    width: 150px;
+}

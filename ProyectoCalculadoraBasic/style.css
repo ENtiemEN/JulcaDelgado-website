@@ -1,0 +1,84 @@
+@font-face{
+    font-family: myFont;
+    src: url("D:/fonts/Digital-7_Mono/digital-7__mono_.ttf");
+}
+
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(195, 211, 224);
+}
+#calculator{
+    background-color: #f453ad;
+    border: none;
+    border-radius: 15px;
+    max-width: 450px;
+    max-height: 750px;
+    overflow: hidden;
+}
+#display{
+    /* font-family: "Courier New", monospace; */
+    /* font-family: myFont; */
+    width: 95%;
+    height: 200px;
+    margin: 35px 10px 15px 10px;
+    font-size: 2rem;
+    text-align: right;
+    border-radius: 20px;
+    border: none;
+    color: #333333;
+    text-shadow: 0px 0px 3px #555555;
+    background-color: #F8F4EC;
+}
+#keys{
+    background-color: #ee73c4;
+    display: grid;
+    grid-template-columns: repeat(4,108px);
+    /*repeat(4,.25fr)*/
+    gap: 8px;
+    padding: 20px;
+}
+button{
+    font-family: sans-serif;
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    border: none;
+    background-color: rgba(43, 36, 36, 0.747);
+    color: #F3F8FF;
+    font-size: 2.5rem;
+    font-weight: bold;
+    cursor: pointer;
+    /* background-color: #f20b97; */
+    background-color: #D63484;
+    box-shadow: 0px 0px 5px #f20b97;
+    transition: background-color 0.5s ease;
+    /*ease | ease-in | ease-in-out | ease-out*/
+}
+button:hover{
+    background-color: #FF9BD2;
+}
+button:active{
+    background-color: rgba(83, 79, 79, 0.103);
+}
+.operatorBtn{
+    background-color: #402B3A;
+    box-shadow: 0px 0px 8px #111111;
+}
+.operatorBtn:hover{
+    background-color: #111111;
+}
+.operatorBtn:active{
+    background-color: #777777;
+}
+#clearBtn{
+    background-color: #49108B;
+    box-shadow: 0px 0px 15px #7E30E1;
+}
+#resultBtn{
+    background-color: #3D0C11;
+    box-shadow: 0px 0px 5px #D80032;
+}
